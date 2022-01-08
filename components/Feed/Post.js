@@ -67,7 +67,7 @@ const Post = ({id,post,postPage}) => {
 
     return (
         <div
-          className="flex p-3 max-w-[1500px] cursor-pointer border-b border-gray-700"
+          className="flex p-3 max-w-[1500px] lg:min-w-[600px] w-2xl cursor-pointer border-b border-gray-700"
           onClick={()=>router.push(`/${id}`)}
 
         >

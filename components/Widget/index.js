@@ -7,8 +7,8 @@ const Widget = ({
     }) => {
 
     return (
-        <div className="hidden lg:inline  mx-2  py-2 space-y-2 w-8/12 ">
-          <div className="sticky top-0 py-1.5 bg-black z-59 w-full mx-2 flex justify-between flex-col">
+        <div className="hidden lg:inline mx-2  py-2 space-y-2 w-8/12 ">
+          <div className="sticky top-0 py-1.5 bg-black z-59 mx-2 flex justify-between flex-col">
           <div className="flex items-center mx-auto bg-[#202327]  rounded-full relative focus:border-b">
             <div className="icon">
               <FiSearch size={22}/>
