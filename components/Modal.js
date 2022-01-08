@@ -182,7 +182,7 @@ const Modal = () => {
                      />
                    {selectedFile && (
                       <div className="relative">
-                         <div class="hoverIcon absolute top-0.5 left-1" onClick={()=>setSelectedFile(null)}>
+                         <div className="hoverIcon absolute top-0.5 left-1" onClick={()=>setSelectedFile(null)}>
                            <AiOutlineClose size={26} className="text-red-700"/>
                          </div>
 

@@ -3,9 +3,10 @@ import {
   getFirestore
 }from "firebase/firestore"
 import {getStorage} from "firebase/storage"
-export const firebaseConfig = {
+const firebaseConfig = {
   apiKey: "AIzaSyC-_CZnJJfTbyF_BX-Y4QjXFXJqVNs3MuE",
   authDomain: "twitter-clone-3d92b.firebaseapp.com",
+  databaseURL: "https://twitter-clone-3d92b-default-rtdb.firebaseio.com",
   projectId: "twitter-clone-3d92b",
   storageBucket: "twitter-clone-3d92b.appspot.com",
   messagingSenderId: "708760681277",

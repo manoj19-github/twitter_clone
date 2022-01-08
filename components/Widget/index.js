@@ -5,11 +5,11 @@ const Widget = ({
       trendingResults,
       followResults
     }) => {
-      console.log("trendingResults",trendingResults)
+
     return (
         <div className="hidden lg:inline  mx-2  py-2 space-y-2 w-8/12 ">
           <div className="sticky top-0 py-1.5 bg-black z-59 w-full mx-2 flex justify-between flex-col">
-          <div className="flex items-center mx-auto bg-[#202327]  rounded-full relative focus:border-b focus:border-red-500">
+          <div className="flex items-center mx-auto bg-[#202327]  rounded-full relative focus:border-b">
             <div className="icon">
               <FiSearch size={22}/>
             </div>
@@ -18,7 +18,7 @@ const Widget = ({
           </div>
         </div>
         <div className="text-[#d9d9d9] space-y-2 bg-[#15181c] rounded-xl w-11/12 mx-auto">
-          <h5 className="font-bold text-xl px-5">What's Happening</h5>
+          <h5 className="font-bold text-xl px-5">What s Happening</h5>
 
           {
             trendingResults.map((result,index)=>(
